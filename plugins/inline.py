@@ -1,5 +1,5 @@
 import logging
-from pyrogram import Client, 🧷🚀, filters
+from pyrogram import Client, 🧷🚀, 🚀
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultCachedDocument
 
 from utils import get_search_results, is_subscribed
@@ -89,12 +89,12 @@ async def answer(bot, query):
 
 def get_reply_markup(query):
     buttons = [
-        [
-            InlineKeyboardButton('Search again', switch_inline_query_current_chat=query),
-            InlineKeyboardButton('More Bots', url='https://t.me/subin_works/122')
-        ]
-        ]
-    return InlineKeyboardMarkup(buttons)
+        
+           
+            
+        
+      
+ 
 
 
 def get_size(size):
