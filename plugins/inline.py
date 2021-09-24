@@ -1,5 +1,5 @@
 import logging
-from pyrogram import Client, emoji, filters
+from pyrogram import Client, 🧷🚀, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, InlineQueryResultCachedDocument
 
 from utils import get_search_results, is_subscribed
